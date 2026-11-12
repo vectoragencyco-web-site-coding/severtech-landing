@@ -405,6 +405,109 @@ const clientsDB = {
       }
     }
   },
+  "cpec-trans-mash": {
+    name: "СпецТрансМаш",
+    phone: "+7 (904) 177-06-43",
+    email: "stm-96@bk.ru",
+    nds: true,
+    heroImg: "cpec-trans-mash-1.jpg",
+    equipment: {
+      jcb: {
+        priceHour: 3500,
+        priceShift: 28000,
+        title: "Экскаватор-погрузчик Terex 840"
+      },
+      loader: false,
+      bobcat: {
+        priceHour: 2900,
+        priceShift: 23200,
+        title: "Мини-погрузчик ПУМ-500"
+      },
+      dump: {
+        priceHour: 2400,
+        priceShift: 19200,
+        title: "Самосвал 15–25 т"
+      }
+    }
+  },
+  "speckat-96": {
+    name: "Спецекат96",
+    phone: "+7 (963) 272-00-22",
+    nds: true,
+    heroImg: "speckat-96-1.jpg",
+    equipment: {
+      jcb: { priceHour: 3500, priceShift: 28000 },
+      loader: { priceHour: 4500, priceShift: 36000 },
+      bobcat: false,
+      dump: { priceHour: 4000, priceShift: 32000 }
+    }
+  },
+  tcm_group: {
+    name: "TCM Group",
+    phone: "+7 (3452) 53-34-35",
+    nds: true,
+    equipment: {
+      jcb: {
+        priceHour: 2500,
+        priceShift: 20000,
+        title: "Экскаватор-погрузчик"
+      },
+      loader: {
+        priceHour: 2400,
+        priceShift: 19200,
+        title: "Фронтальный погрузчик"
+      },
+      bobcat: {
+        priceHour: 2200,
+        priceShift: 17600,
+        title: "Мини-погрузчик"
+      },
+      dump: {
+        priceHour: 2500,
+        priceShift: 20000,
+        title: "Самосвал 15–25 т"
+      }
+    }
+  },
+  gortechnika: {
+    name: "ГорТехника",
+    phone: "+7 (3452) 55-55-88",
+    nds: true,
+    heroImg: "autospec-1.png",
+    equipment: {
+      jcb: {
+        priceHour: 2000,
+        priceShift: 16000,
+        title: "Экскаватор-погрузчик"
+      },
+      loader: {
+        priceHour: 1900,
+        priceShift: 15200,
+        title: "Фронтальный погрузчик"
+      },
+      bobcat: {
+        priceHour: 1900,
+        priceShift: 15200,
+        title: "Мини-погрузчик"
+      },
+      dump: {
+        priceHour: 2000,
+        priceShift: 16000,
+        title: "Самосвал 15–19 м³"
+      }
+    }
+  },
+  morskoy: {
+    name: "Морской",
+    phone: "+7 (383) 286-94-60",
+    nds: true,
+    equipment: {
+      jcb: { priceHour: 3500, priceShift: 28000 },
+      loader: { priceHour: 4500, priceShift: 36000 },
+      bobcat: false,
+      dump: { priceHour: 4000, priceShift: 32000 }
+    }
+  },
   speckomtrans: {
     name: "СпецКомТранс",
     phone: "+7 (343) 288-50-05",
